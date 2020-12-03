@@ -564,6 +564,7 @@ func pinMFS(ctx context.Context, node *core.IpfsNode, cid cid.Cid, svcName strin
 	}
 
 	// Execute remote pin request
+	log.Infof("Pinning MFS root %s to remote pinning service %s", cid.String(), svcName)
 	_, err := c.Add(ctx, cid, opts...)
 	if err != nil {
 		select {

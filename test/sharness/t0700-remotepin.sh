@@ -41,7 +41,7 @@ test_expect_success "test 'ipfs pin remote service ls'" '
 test_expect_success "test mfs is being pinned" '
   sleep 60 &&
   ipfs files stat / --enc=json | jq -r .Hash > mfs_cid &&
-  ipfs pin remote ls --name=policy-mfs --enc=json | jq -r .Cid > pin_cid &&
+  ipfs pin remote ls --service=test_pin_mfs_svc --name=policy-mfs --enc=json | jq -r .Cid > pin_cid &&
   cat mfs_cid pin_cid &&
   test_cmp mfs_cid pin_cid
 '
