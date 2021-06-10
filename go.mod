@@ -83,7 +83,7 @@ require (
 	github.com/libp2p/go-socket-activation v0.0.2
 	github.com/libp2p/go-tcp-transport v0.2.2
 	github.com/libp2p/go-ws-transport v0.4.0
-	github.com/lucas-clemente/quic-go v0.21.0-rc.2
+	github.com/lucas-clemente/quic-go v0.21.0
 	github.com/miekg/dns v1.1.41
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/multiformats/go-multiaddr v0.3.1

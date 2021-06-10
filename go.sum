@@ -881,8 +881,9 @@ github.com/libp2p/go-yamux/v2 v2.2.0/go.mod h1:3So6P6TV6r75R9jiBpiIKgU/66lOarCZj
 github.com/lightstep/lightstep-tracer-common/golang/gogo v0.0.0-20190605223551-bc2310a04743/go.mod h1:qklhhLq1aX+mtWk9cPHPzaBjWImj5ULL6C7HFJtXQMM=
 github.com/lightstep/lightstep-tracer-go v0.18.1/go.mod h1:jlF1pusYV4pidLvZ+XD0UBX0ZE6WURAspgAczcDHrL4=
 github.com/lucas-clemente/quic-go v0.19.3/go.mod h1:ADXpNbTQjq1hIzCpB+y/k5iz4n4z4IwqoLb94Kh5Hu8=
-github.com/lucas-clemente/quic-go v0.21.0-rc.2 h1:HWPytXS1LueuD6vIHwSMW0FQkmf4Rb4Keyk9Vvapm1A=
 github.com/lucas-clemente/quic-go v0.21.0-rc.2/go.mod h1:T+SpiNEBFsIo/TO6N8XDIhpnx3LMlNL/b9vyQtuvj1M=
+github.com/lucas-clemente/quic-go v0.21.0 h1:ZdC8UBxUSBdPlEv1+4y4SqIBy54VA8bRxN7DmkQ0URs=
+github.com/lucas-clemente/quic-go v0.21.0/go.mod h1:BWkfkkOSJD1AxFNBqdjBZi6FznZ96bhdcvZiA+LDrY8=
 github.com/lunixbochs/vtclean v1.0.0/go.mod h1:pHhQNgMf3btfWnGBVipUOjRYhoOsdGqdm/+2c2E2WMI=
 github.com/lyft/protoc-gen-validate v0.0.13/go.mod h1:XbGvPuh87YZc5TdIa2/I4pLk0QoUACkjt2znoq26NVQ=
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
@@ -895,6 +896,8 @@ github.com/marten-seemann/qtls-go1-15 v0.1.4 h1:RehYMOyRW8hPVEja1KBVsFVNSm35Jj9M
 github.com/marten-seemann/qtls-go1-15 v0.1.4/go.mod h1:GyFwywLKkRt+6mfU99csTEY1joMZz5vmB1WNZH3P81I=
 github.com/marten-seemann/qtls-go1-16 v0.1.3 h1:XEZ1xGorVy9u+lJq+WXNE+hiqRYLNvJGYmwfwKQN2gU=
 github.com/marten-seemann/qtls-go1-16 v0.1.3/go.mod h1:gNpI2Ol+lRS3WwSOtIUUtRwZEQMXjYK+dQSBFbethAk=
+github.com/marten-seemann/qtls-go1-17 v0.1.0-alpha.1 h1:LRFa3YRSlOAf9y56Szfhlh60CQrIMBSK/rneZD1gtuk=
+github.com/marten-seemann/qtls-go1-17 v0.1.0-alpha.1/go.mod h1:lQDiKZDfPagLmg1zMtEgoBMSTAORq6M08lBogD5FtBY=
 github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd h1:br0buuQ854V8u83wA0rVZ8ttrq5CpaPZdvrK0LP2lOk=
 github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd/go.mod h1:QuCEs1Nt24+FYQEqAAncTDPJIuGs+LxK1MCiFL25pMU=
 github.com/mattn/go-colorable v0.0.9/go.mod h1:9vuHe8Xs5qXnSaW/c/ABM9alt+Vo+STaOChaDxuIBZU=
